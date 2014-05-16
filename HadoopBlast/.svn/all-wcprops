@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/repository/!svn/ver/1252/Scratch/cloudComparisons/HadoopRunner-Blast
+END
+.classpath
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/repository/!svn/ver/1141/Scratch/cloudComparisons/HadoopRunner-Blast/.classpath
+END
+killWorkers.sh
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/repository/!svn/ver/1149/Scratch/cloudComparisons/HadoopRunner-Blast/killWorkers.sh
+END
+.project
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/repository/!svn/ver/1142/Scratch/cloudComparisons/HadoopRunner-Blast/.project
+END
+autorun.sh
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/repository/!svn/ver/1149/Scratch/cloudComparisons/HadoopRunner-Blast/autorun.sh
+END
+blast-hadoop.jar
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/repository/!svn/ver/1252/Scratch/cloudComparisons/HadoopRunner-Blast/blast-hadoop.jar
+END
+build.xml
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/repository/!svn/ver/1144/Scratch/cloudComparisons/HadoopRunner-Blast/build.xml
+END

@@ -1,0 +1,10 @@
+#!/bin/bash
+for line in `cat $1`;do
+ echo $line
+ for pp in `ssh -i $2 $line pgrep java`;do
+ echo $pp
+  ssh -i $2 $line kill -9 $pp
+ done
+ sleep 2
+done
+

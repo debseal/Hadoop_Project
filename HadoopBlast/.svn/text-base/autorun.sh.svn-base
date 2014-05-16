@@ -1,0 +1,13 @@
+#!/bin/bash
+
+round=768
+pwd 
+for (( i = 2 ; i <= 5; i++ ))
+do
+./clean.sh
+./startWorkers.sh /mnt/ClassicCloudGTM/bin 2 1 JQueue1$i TQueue1$i
+./runMaster.sh JQueue1$i TQueue1$i $round gtmdataset10kzip gtmdataset10kzipout > Job1$i
+round=`expr $round + 768`
+done
+
+

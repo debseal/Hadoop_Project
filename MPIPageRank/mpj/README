@@ -1,0 +1,5 @@
+
+
+Compile: javac -cp .:$MPJ_HOME/lib/mpj.jar MPIPageRank.java
+
+Usage: java MPIPageRank <input_file_name> <output_file_name> <delta> <damp_factor> <iterations>

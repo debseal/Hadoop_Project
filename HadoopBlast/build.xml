@@ -1,0 +1,28 @@
+<project name="Blast-Hadoop" basedir="." default="compile">
+<!-- Author: Thilina -->
+
+	<property name="build.dir" value="build" />
+	<property name="lib.dir" value="lib" />
+		
+	<path id="class.path">
+		<fileset dir="lib">
+			<include name="**/*.jar" />
+		</fileset>
+	</path>
+
+	<target name="compile">
+		<mkdir dir="${build.dir}/classes" />
+		<javac memoryMaximumSize="256m" memoryInitialSize="256m" fork="true" destdir="${build.dir}/classes" debug="false">
+			<src path="src" />
+			<classpath refid="class.path" />
+		</javac>
+		
+		<jar destfile="${build.dir}/blast-hadoop.jar" manifest="resources/MANIFEST">
+			<fileset dir="${build.dir}/classes" />
+		</jar>
+	</target>
+	
+	<target name="clean">
+		<delete dir="build" />
+	</target>
+</project>	
